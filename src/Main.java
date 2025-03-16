@@ -10,7 +10,7 @@ class Car {
     private boolean isAvailable;
 
 
-    public Car(String carId, String brand, String model, double basePricePerDay, boolean isAvailable) {
+    public Car(String carId, String brand, String model, double basePricePerDay) {
         this.carId = carId;
         this.brand = brand;
         this.model = model;
@@ -247,7 +247,11 @@ class CarRentalSystem{
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello");
-        System.out.println("testing one");
+        CarRentalSystem rentalSystem = new CarRentalSystem();
+
+        Car car1 = new Car("C001", "Toyota", "Camry", 60.0); // Different base price per day for each car
+        Car car2 = new Car("C002", "Honda", "Accord", 70.0);
+        Car car3 = new Car("C003", "Mahindra", "Thar", 150.0);
+
     }
 }
