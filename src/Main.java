@@ -256,5 +256,7 @@ public class Main {
         rentalSystem.addCar(car1);
         rentalSystem.addCar(car2);
         rentalSystem.addCar(car3);
+
+        rentalSystem.menu();
     }
 }
