@@ -46,6 +46,7 @@ class Car {
 }
 
 class customer{
+    //customer sample info
     private String customerId;
     private String name;
 
