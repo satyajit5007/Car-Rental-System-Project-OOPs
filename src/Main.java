@@ -65,6 +65,7 @@ class Customer{
 }
 
 class Rental{
+    // rental info
     private Car car;
     private Customer customer;
     private int days;
